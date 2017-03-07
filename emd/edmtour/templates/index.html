@@ -1,0 +1,63 @@
+{%load static%}
+
+<!--{% for song in songs %}
+       <div class="col-md-2">
+          <div id={{forloop.counter0}} class="musicbox">
+              <p class="dis">{{song.album_name|cap}}<br>
+                  <span class="artist">{{song.artist|cap}}</span></br></p>
+           <img class="img-responsive albumimg" src={{song.album_pic.url}} >
+          <a href={%url "download" song.id %}><img class="download" class="img-responsive" src={%static "images/d.png" %}></a>
+          <img class="download play" data-songname="{{song.album_name}}" data-artist="{{song.artist}}"  value={{song.music_upload.url}} data-song={{song.id}} class="img-responsive" src={%static "images/p.png" %}>
+           </div>
+          
+       </div>{%endfor%}-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>EDM TOUR</title>
+
+    <!-- Bootstrap -->
+    <link href={%static "css/bootstrap.min.css" %} rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    
+    <link href={%static "css/main.css" %} rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="body">  
+  <img id="bi" src={%static "images/bi.jpg" %}  class="img-responsive">      
+   <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+           <p id="main">EDM TOUR</p>
+           <P id="tag">TAKE A TOUR OF YOUR ONE STOP STATION TO ALL YOUR EDM MUSIC
+           
+           </P>
+           <a id="boxlink" href={%url "songs"%}>
+           <div id="tour">
+           TAKE A TOUR
+           </div></a>
+            <p id="official">EDMTOUR@OFFICIALTEAMET</p>
+          </div>
+       
+       </div>
+      
+      
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src={%static "js/bootstrap.min.js" %}></script>
+        </div>
+  </body>
+</html>

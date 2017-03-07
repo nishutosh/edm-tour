@@ -1,0 +1,357 @@
+body{
+    
+   text-align: center;
+    background-color: black;
+    
+}
+#body{
+    
+     color: white;
+}
+a{
+    color:#333;
+}
+#boxlink{
+    text-decoration: none;
+    color:white;
+    
+}
+a{
+    outline:none;
+}
+#dd{
+    
+    margin-top:40px;
+    font-size:13px;
+     font-family: Open Sans;
+}
+li{
+    
+    list-style: none;
+}
+.musicbox:hover .albumimg{
+    
+    opacity:0.1;
+  
+}
+.musicbox:hover .dis,.download{
+    display:block;
+}
+.musicbox:hover .download{
+    display:block;
+    cursor:pointer;
+}
+
+.download{
+    
+    width:24px;
+    position:absolute;
+    display:none;
+    top: 74%;
+    right: 25%;
+}
+.play,.choice,.searchclass{
+    
+    left:25%;
+    height: 24px;
+  ;
+}
+.artist{
+    
+    font-size:14px;
+}
+.flist{
+   margin:6px 17px;
+    
+    color:grey;
+    font-size:13px;
+    font-family: Open Sans;
+}
+.footer{
+    padding:0px;
+    text-align: center;
+    margin-top:180px;
+    background-color: #151515;
+    padding: 3%;
+}
+.dis{
+    display:none;
+    position: absolute;;
+    width:168px;
+    color:white;
+    font-size: 21px;
+    padding: 10px;
+    font-family: Open Sans;
+}
+#head{
+    color:#636363;
+     text-align: center;
+    font-size: 65px;
+margin-top: 14px;
+   font-family: 'Open Sans Condensed', sans-serif;
+    
+    
+}
+.songlike{
+    
+    
+    right: 42%;
+    top: 75%;
+}
+li{
+    cursor: pointer;
+    font-size:15px;
+    margin: 15px;
+     font-family: 'Open Sans', sans-serif;
+}
+.musicbox{
+    margin-top:30px;
+    
+}
+#put{
+    
+    background-color: #272727;
+    border-style:none;
+    border-radius:30px;
+    width: 244px;
+    padding: 8px 19px;
+    margin-bottom: 27px;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #807c7c;
+}
+
+/*----------------------*/
+#main{
+    /*color:#838383;*/
+    text-align: center;
+    font-size: 55px;
+margin-top: 147px;
+   font-family: 'Open Sans Condensed', sans-serif
+}
+#tag{
+     /*color:#838383;*/
+    text-align: center;
+    font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+    
+}
+#tour{
+    padding: 10px;
+    font-size: 18px;
+    margin:auto;
+    margin-top:30px;
+    border:1px solid white;
+  
+    text-align: center;
+    width:220px;
+    border-radius: 2px;
+    
+    
+}
+
+#bi{
+    
+    position:absolute;
+}
+
+
+#official{
+    margin-top:23%;
+    font-family: Verdana;
+    color:white;
+    text-align: center;
+     font-family: 'Open Sans', sans-serif;
+   
+     
+    
+}
+#tour:hover{
+    cursor: pointer;
+    opacity:0.5;
+    color: #03ff81;
+    border: 1px solid #08f07b;
+}
+
+
+/*------player*/
+body{
+    
+   text-align: center;
+    background-color: black;
+    
+}
+/*player-------------------*/
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background:black;
+}
+.player{
+    font-family: Verdana;
+    color:#D1D1D1;
+  display: none;
+    font-size: 11px;
+    background-color:#0E0E0E;
+    width: 100%;
+
+    position:fixed;
+   bottom:0px;
+   
+    
+}
+.images{
+    cursor: pointer;
+    height: 20px;
+    width:27px;
+    display: inline-block;
+    margin: 0px 14px;
+    float: left;
+}
+.back{
+       height: 12px;
+    width:17px;
+    margin-left: 60px;
+       margin-top: 4px;
+}
+.forward{
+       height: 12px;
+    width:17px;
+    
+       margin-top: 4px;
+}
+#tslider{
+    display: inline-block;
+    width:80%;
+    height:2px;
+    background-color: #2d2d2d;
+    
+    
+    
+    margin: 0 9px 3px 9px;
+}
+.repeat{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin: 16px 14px 15px 21px;
+    float: left;
+    cursor: pointer;
+}
+.heart{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin: -1px 8px 0px 17px;
+    float: right;
+    cursor: pointer;
+    
+    
+}
+#sslider{
+  
+    background-color: orangered;
+    height:3px;
+    border-radius: 4px;
+    width:0%;
+}
+#song,#art{
+    
+    color:white;
+}
+#timepassed,#totaltime{
+    
+    display: inline-block;
+}
+#box2{
+  
+    margin:17px 20px 10px 16px;
+    display: inline-block;
+ 
+    width: 36%;
+    float: left;
+}
+#box3{
+    margin:17px 79px 10px 0px;
+    float: right;
+    
+    font-size: 11px;
+    font-family: Verdana;
+    display: inline-block;
+    color: #3c3c3c;
+    width: 28%;
+    text-align: right;
+}
+#box1{
+    margin:15px 19px 11px 19px;
+    float:left;
+}
+#slider{
+    position:absolute;
+    width: 28.5%;
+    cursor: pointer;
+    height: 19px;
+   
+    top: 34%;
+    opacity: 0;
+}
+#volumebar{
+    
+    width:39px;
+    height:143px;
+    background-color: #353535;
+    
+    
+    bottom: 43px;
+    position: fixed;
+    right: 37.5%;
+    border-radius: 4px;
+    opacity: 0.96;
+}
+#tvolad{
+    display: inline-block;
+    width:3px;
+    height:105px;
+    background-color: black;  
+  
+    margin: 19px;
+}
+
+#svolad{
+  
+    background-color: orangered;
+    height:63px;
+    border-radius: 4px;
+    width:0%;
+}
+#rotrn{
+    
+   transform: rotate(270deg);
+
+    
+    
+}
+/*table----------*/
+table{
+    
+    width:100%;
+}
+.timg{
+    height:20px;
+}
+th{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:#2f2f2f;
+    font-size: 18px;
+    padding: 3px 0px;
+}
+td{
+     font-family: 'Montserrat', sans-serif;
+    color:#b0b0b0;
+    font-size: 17px;
+    text-align: left;
+    
+    
+    
+     padding: 3px 0px;
+}
