@@ -1,2 +1,2 @@
 # edm-tour
-edm songs  website 
+edm-music  website 
